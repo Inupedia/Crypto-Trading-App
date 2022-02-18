@@ -12,6 +12,8 @@
       <a href="#about-the-app">About The Project</a>
       <ul>
         <li><a href="#preliminary-screen-desgin">Preliminary Screen Design</a></li>
+        <li><a href="#api">API</a></li>
+        <li><a href="#ui">UI/UX</a></li>
       </ul>
     </li>
   </ol>
