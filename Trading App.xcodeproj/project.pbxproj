@@ -13,7 +13,33 @@
 		003A93B027BB1463000009EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003A93AE27BB1463000009EA /* Main.storyboard */; };
 		003A93B227BB1464000009EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003A93B127BB1464000009EA /* Assets.xcassets */; };
 		003A93B527BB1464000009EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003A93B327BB1464000009EA /* LaunchScreen.storyboard */; };
-		3A905E1D27CF5B8C00B60984 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E1C27CF5B8C00B60984 /* CoinModel.swift */; };
+		3A905E2627D0396A00B60984 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E2327D0396A00B60984 /* Preview.swift */; };
+		3A905E2727D0396A00B60984 /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E2427D0396A00B60984 /* UIViewController+Preview.swift */; };
+		3A905E2827D0396A00B60984 /* PreviewDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E2527D0396A00B60984 /* PreviewDevice+.swift */; };
+		3A905E2E27D0437300B60984 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E2A27D0437300B60984 /* CustomBlurView.swift */; };
+		3A905E2F27D0437300B60984 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E2B27D0437300B60984 /* CustomUIView.swift */; };
+		3A905E3027D0437300B60984 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E2C27D0437300B60984 /* Font.swift */; };
+		3A905E3127D0437300B60984 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E2D27D0437300B60984 /* CustomImageView.swift */; };
+		3A905E3527D1CBA300B60984 /* PositionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A905E3427D1CBA300B60984 /* PositionCollectionViewCell.swift */; };
+		3AA2E6A827D9270800472F99 /* Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2E6A427D9270700472F99 /* Constaints.swift */; };
+		3AA2E6A927D9270800472F99 /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2E6A527D9270800472F99 /* WebServer.swift */; };
+		3AA2E6AA27D9270800472F99 /* CoinAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2E6A627D9270800472F99 /* CoinAPIModel.swift */; };
+		3AA2E6AB27D9270800472F99 /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2E6A727D9270800472F99 /* CoinListViewModel.swift */; };
+		3AE00C4427DC2322000B660A /* MarketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE00C4327DC2322000B660A /* MarketTableViewController.swift */; };
+		3AE00C4627DC23C2000B660A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE00C4527DC23C2000B660A /* DetailsViewController.swift */; };
+		3AE00C4927DC5558000B660A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE00C4827DC5558000B660A /* FirebaseAnalytics */; };
+		3AE00C4B27DC5558000B660A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE00C4A27DC5558000B660A /* FirebaseAuth */; };
+		3AE00C4D27DC5558000B660A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE00C4C27DC5558000B660A /* FirebaseFirestore */; };
+		3AE00C4F27DC5558000B660A /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE00C4E27DC5558000B660A /* FirebaseFirestoreSwift-Beta */; };
+		3AE00C5127DC5558000B660A /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE00C5027DC5558000B660A /* FirebaseInAppMessagingSwift-Beta */; };
+		3AE00C5327DC5558000B660A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE00C5227DC5558000B660A /* FirebaseMessaging */; };
+		3AE00C5527DC5558000B660A /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE00C5427DC5558000B660A /* FirebasePerformance */; };
+		3AE00C5727DC557C000B660A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE00C5627DC557B000B660A /* GoogleService-Info.plist */; };
+		3AE00C5A27DC83CD000B660A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE00C5927DC83CD000B660A /* LoginViewController.swift */; };
+		3AE00C5C27DC9074000B660A /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE00C5B27DC9074000B660A /* CustomTabBarViewController.swift */; };
+		3AE00C5F27DEFCA3000B660A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE00C5E27DEFCA3000B660A /* APICaller.swift */; };
+		3AE00C6127DF015F000B660A /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE00C6027DF015F000B660A /* NewsViewController.swift */; };
+		3AE00C6327DF0662000B660A /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE00C6227DF0662000B660A /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +51,26 @@
 		003A93B127BB1464000009EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		003A93B427BB1464000009EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		003A93B627BB1464000009EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A905E1C27CF5B8C00B60984 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		3A905E2327D0396A00B60984 /* Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		3A905E2427D0396A00B60984 /* UIViewController+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Preview.swift"; sourceTree = "<group>"; };
+		3A905E2527D0396A00B60984 /* PreviewDevice+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PreviewDevice+.swift"; sourceTree = "<group>"; };
+		3A905E2A27D0437300B60984 /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
+		3A905E2B27D0437300B60984 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		3A905E2C27D0437300B60984 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		3A905E2D27D0437300B60984 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		3A905E3427D1CBA300B60984 /* PositionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionCollectionViewCell.swift; sourceTree = "<group>"; };
+		3AA2E6A427D9270700472F99 /* Constaints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constaints.swift; sourceTree = "<group>"; };
+		3AA2E6A527D9270800472F99 /* WebServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
+		3AA2E6A627D9270800472F99 /* CoinAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinAPIModel.swift; sourceTree = "<group>"; };
+		3AA2E6A727D9270800472F99 /* CoinListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
+		3AE00C4327DC2322000B660A /* MarketTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewController.swift; sourceTree = "<group>"; };
+		3AE00C4527DC23C2000B660A /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3AE00C5627DC557B000B660A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3AE00C5927DC83CD000B660A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3AE00C5B27DC9074000B660A /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		3AE00C5E27DEFCA3000B660A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		3AE00C6027DF015F000B660A /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		3AE00C6227DF0662000B660A /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE00C5527DC5558000B660A /* FirebasePerformance in Frameworks */,
+				3AE00C5327DC5558000B660A /* FirebaseMessaging in Frameworks */,
+				3AE00C4927DC5558000B660A /* FirebaseAnalytics in Frameworks */,
+				3AE00C4F27DC5558000B660A /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				3AE00C5127DC5558000B660A /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				3AE00C4B27DC5558000B660A /* FirebaseAuth in Frameworks */,
+				3AE00C4D27DC5558000B660A /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +112,15 @@
 			children = (
 				003A93A827BB1463000009EA /* AppDelegate.swift */,
 				003A93AA27BB1463000009EA /* SceneDelegate.swift */,
-				003A93AC27BB1463000009EA /* HomeViewController.swift */,
-				3A905E1B27CF5B5900B60984 /* Models */,
 				003A93AE27BB1463000009EA /* Main.storyboard */,
 				003A93B127BB1464000009EA /* Assets.xcassets */,
 				003A93B327BB1464000009EA /* LaunchScreen.storyboard */,
 				003A93B627BB1464000009EA /* Info.plist */,
+				3AE00C5627DC557B000B660A /* GoogleService-Info.plist */,
+				3AE00C5827DC8386000B660A /* ViewController */,
+				3A905E2927D0437300B60984 /* Helpers */,
+				3A905E2227D0396A00B60984 /* PreviewKit */,
+				3A905E1F27D02A7600B60984 /* Core */,
 			);
 			path = "Trading App";
 			sourceTree = "<group>";
@@ -73,9 +128,81 @@
 		3A905E1B27CF5B5900B60984 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3A905E1C27CF5B8C00B60984 /* CoinModel.swift */,
+				3AA2E6A627D9270800472F99 /* CoinAPIModel.swift */,
+				3AA2E6A727D9270800472F99 /* CoinListViewModel.swift */,
+				3AA2E6A427D9270700472F99 /* Constaints.swift */,
+				3AA2E6A527D9270800472F99 /* WebServer.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3A905E1E27D02A5600B60984 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				003A93AC27BB1463000009EA /* HomeViewController.swift */,
+				3A905E3427D1CBA300B60984 /* PositionCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3A905E1F27D02A7600B60984 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3A905E1B27CF5B5900B60984 /* Models */,
+				3A905E1E27D02A5600B60984 /* Home */,
+				3AE00C4227DC1ECF000B660A /* Market */,
+				3AE00C5D27DEFC59000B660A /* News */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3A905E2227D0396A00B60984 /* PreviewKit */ = {
+			isa = PBXGroup;
+			children = (
+				3A905E2327D0396A00B60984 /* Preview.swift */,
+				3A905E2427D0396A00B60984 /* UIViewController+Preview.swift */,
+				3A905E2527D0396A00B60984 /* PreviewDevice+.swift */,
+			);
+			path = PreviewKit;
+			sourceTree = "<group>";
+		};
+		3A905E2927D0437300B60984 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3AE00C5B27DC9074000B660A /* CustomTabBarViewController.swift */,
+				3A905E2A27D0437300B60984 /* CustomBlurView.swift */,
+				3A905E2B27D0437300B60984 /* CustomUIView.swift */,
+				3A905E2C27D0437300B60984 /* Font.swift */,
+				3A905E2D27D0437300B60984 /* CustomImageView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3AE00C4227DC1ECF000B660A /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				3AE00C4327DC2322000B660A /* MarketTableViewController.swift */,
+				3AE00C4527DC23C2000B660A /* DetailsViewController.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		3AE00C5827DC8386000B660A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3AE00C5927DC83CD000B660A /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3AE00C5D27DEFC59000B660A /* News */ = {
+			isa = PBXGroup;
+			children = (
+				3AE00C5E27DEFCA3000B660A /* APICaller.swift */,
+				3AE00C6027DF015F000B660A /* NewsViewController.swift */,
+				3AE00C6227DF0662000B660A /* NewsTableViewCell.swift */,
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +221,15 @@
 			dependencies = (
 			);
 			name = "Trading App";
+			packageProductDependencies = (
+				3AE00C4827DC5558000B660A /* FirebaseAnalytics */,
+				3AE00C4A27DC5558000B660A /* FirebaseAuth */,
+				3AE00C4C27DC5558000B660A /* FirebaseFirestore */,
+				3AE00C4E27DC5558000B660A /* FirebaseFirestoreSwift-Beta */,
+				3AE00C5027DC5558000B660A /* FirebaseInAppMessagingSwift-Beta */,
+				3AE00C5227DC5558000B660A /* FirebaseMessaging */,
+				3AE00C5427DC5558000B660A /* FirebasePerformance */,
+			);
 			productName = "Trading App";
 			productReference = 003A93A527BB1463000009EA /* Trading App.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +258,9 @@
 				Base,
 			);
 			mainGroup = 003A939C27BB1463000009EA;
+			packageReferences = (
+				3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 003A93A627BB1463000009EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				003A93B527BB1464000009EA /* LaunchScreen.storyboard in Resources */,
+				3AE00C5727DC557C000B660A /* GoogleService-Info.plist in Resources */,
 				003A93B227BB1464000009EA /* Assets.xcassets in Resources */,
 				003A93B027BB1463000009EA /* Main.storyboard in Resources */,
 			);
@@ -149,10 +289,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A905E1D27CF5B8C00B60984 /* CoinModel.swift in Sources */,
+				3AE00C5A27DC83CD000B660A /* LoginViewController.swift in Sources */,
 				003A93AD27BB1463000009EA /* HomeViewController.swift in Sources */,
+				3A905E3027D0437300B60984 /* Font.swift in Sources */,
+				3AE00C5F27DEFCA3000B660A /* APICaller.swift in Sources */,
+				3A905E2E27D0437300B60984 /* CustomBlurView.swift in Sources */,
+				3A905E2627D0396A00B60984 /* Preview.swift in Sources */,
+				3A905E2727D0396A00B60984 /* UIViewController+Preview.swift in Sources */,
+				3AE00C4427DC2322000B660A /* MarketTableViewController.swift in Sources */,
+				3AE00C5C27DC9074000B660A /* CustomTabBarViewController.swift in Sources */,
+				3AA2E6A927D9270800472F99 /* WebServer.swift in Sources */,
+				3A905E3527D1CBA300B60984 /* PositionCollectionViewCell.swift in Sources */,
 				003A93A927BB1463000009EA /* AppDelegate.swift in Sources */,
+				3AE00C6327DF0662000B660A /* NewsTableViewCell.swift in Sources */,
+				3AE00C4627DC23C2000B660A /* DetailsViewController.swift in Sources */,
+				3A905E3127D0437300B60984 /* CustomImageView.swift in Sources */,
+				3AA2E6AB27D9270800472F99 /* CoinListViewModel.swift in Sources */,
 				003A93AB27BB1463000009EA /* SceneDelegate.swift in Sources */,
+				3AA2E6A827D9270800472F99 /* Constaints.swift in Sources */,
+				3AA2E6AA27D9270800472F99 /* CoinAPIModel.swift in Sources */,
+				3AE00C6127DF015F000B660A /* NewsViewController.swift in Sources */,
+				3A905E2F27D0437300B60984 /* CustomUIView.swift in Sources */,
+				3A905E2827D0396A00B60984 /* PreviewDevice+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +530,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AE00C4827DC5558000B660A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3AE00C4A27DC5558000B660A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3AE00C4C27DC5558000B660A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3AE00C4E27DC5558000B660A /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		3AE00C5027DC5558000B660A /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		3AE00C5227DC5558000B660A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3AE00C5427DC5558000B660A /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AE00C4727DC5558000B660A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 003A939D27BB1463000009EA /* Project object */;
 }
