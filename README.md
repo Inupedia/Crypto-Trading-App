@@ -44,15 +44,14 @@ This project is a iOS based platform that allow user to real-time trade popular 
 Template design, might be revise during developing.
   1. Login Page (optional featur: Finger Print Login Method)
   2. Registration Page 
-  3. Main Page, contains 3 navigators, search, profile and a table list to show your favorite coin(s)
-  4. News Page
-  5. Detail Page, by clicking coin, user are able to zoom into the detail information for selected coin (Overview introduction, movement chart, etc)
-  6. Profile Page
-  7. Paper Account Page, you are able to trade coins with simulator
+  3. Main Navigation Controller Page, contains 5 different ViewController: Home, Market, Trading, News & Profile
 
 ### API
-  1. CoinGecko API
-  2. CryptoPanic API
+  1. CoinGecko API (Real Time Market & Coin Icon)
+  2. CryptoPanic API (Real Time News)
+  
+### Database
+  1. Firebase
 
 ### UI/UX
   <a href="https://dribbble.com/shots/16175213-Robot-Wallet-Crypto-iOS-UI-Kit">Robot Wallet – Crypto iOS UI Kit</a>
