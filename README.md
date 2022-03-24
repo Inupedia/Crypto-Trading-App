@@ -52,6 +52,7 @@ Template design, might be revise during developing.
 
 ### API
   1. CoinGecko API
+  2. CryptoPanic API
 
 ### UI/UX
   <a href="https://dribbble.com/shots/16175213-Robot-Wallet-Crypto-iOS-UI-Kit">Robot Wallet – Crypto iOS UI Kit</a>
