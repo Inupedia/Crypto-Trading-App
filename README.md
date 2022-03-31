@@ -38,7 +38,7 @@ You can either left click green button "Code" to download the zip file or clone 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a iOS based platform that allow user to real-time trade popular crypto  currency. This application won’t connect to real account, so all tradings are under paper account, user must register a personal account to continue next step, SQLite is used to store user information, by using CoinGecko API user are able to access to the latest currency information (price, description, news, etc).
+This project is a iOS based platform that allow user to real-time trade popular crypto  currency. This application won’t connect to real account, so all tradings are under paper account, user must register a personal account to continue next step, Firebase is used to store user information, by using CoinGecko & CryptoPanic APIs, user are able to access to the latest currency information (price, description, news, etc).
 
 ### Preliminary Screen Design
 Template design, might be revise during developing.
@@ -47,14 +47,14 @@ Template design, might be revise during developing.
   3. Main Navigation Controller Page, contains 5 different ViewController: Home, Market, Trading, News & Profile
 
 ### API
-  1. CoinGecko API (Real Time Market & Coin Icon)
-  2. CryptoPanic API (Real Time News)
+  1. <a href="https://www.coingecko.com/">CoinGecko API (Real Time Market & Coin Icon)</a>
+  2. <a href="https://cryptopanic.com/">CryptoPanic API (Real Time News)</a>
   
 ### Database
   1. Firebase
 
 ### UI/UX
-  <a href="https://dribbble.com/shots/16175213-Robot-Wallet-Crypto-iOS-UI-Kit">Robot Wallet – Crypto iOS UI Kit</a>
+  1. <a href="https://dribbble.com/shots/16175213-Robot-Wallet-Crypto-iOS-UI-Kit">Robot Wallet – Crypto iOS UI Kit</a>
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
